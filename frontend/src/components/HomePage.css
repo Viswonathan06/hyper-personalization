@@ -1,0 +1,70 @@
+/* Add your CSS styles here */
+.Homepage {
+    text-align: center;
+  }
+  
+  .Homepage-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .hero {
+    /* background-image: url('background-image.jpg'); */
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .featured-products {
+    margin-top: 20px;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .mood-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .mood-card {
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .charts {
+    /* Add chart styles here */
+  }
+  
+  footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
